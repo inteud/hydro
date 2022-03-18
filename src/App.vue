@@ -1,5 +1,7 @@
 <template>
   <header></header>
-  <main></main>
+  <main>
+    <router-view></router-view>
+  </main>
   <footer></footer>
 </template>
