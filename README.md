@@ -1,7 +1,7 @@
 # **Área de Investigación Tecnológica de la Universidad Distrital**
 
 !["INTEUD"](https://github.com/inteud/hydro/blob/main/public/logo.svg "INTEUD LOGO")
-
+<img src="https://github.com/inteud/hydro/blob/main/public/logo.svg"/> 
 **INTEUD** es una iniciativa académica con el fin de incentivar la comunidad estudiantil del area de tecnología de construcciones civiles e ingeniería civil, a investigar y desarrollar productos tecnológicos haciendo uso de software y hardware de vanguardia en sus proyectos academicos.
 
 ---
