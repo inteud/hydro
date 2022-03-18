@@ -1,6 +1,6 @@
-# HydroTools
+# **Área de Investigación Tecnológica de la Universidad Distrital**
 
-!['HydroTools'](https://github.com/inteud/hydro/blob/main/public/favicon_transparent.png?raw=true "HydroTools")
+!['HydroTools'](https://github.com/inteud/hydro/blob/main/public/logo.png?raw=true "HydroTools")
 
 **HydroTools** es una iniciativa académica personal con el fin de llevar a los estudiantes y profesionales del area hidraúlica herramientas tecnológicas para el desarrollo de proyectos y analisis de datos.
 
