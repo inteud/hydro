@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  base: "/",
+  base: "/hydro/",
+  linkActiveClass: "link--active",
+  linkExactActiveClass: "link--active",
   routes: [
     {
       path: "/",
@@ -10,12 +12,30 @@ const router = createRouter({
       component: () => import("../views/HomeView.vue"),
     },
     {
+      path: "/collaborators",
+      name: "collaborators",
+      component: () => import("../views/CollaboratorsView.vue"),
+    },
+    {
+      path: "/collaborator/:id",
+      name: "collaborator",
+      props: true,
+      component: () => import("../views/CollaboratorView.vue"),
+    },
+    {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
+    },
+    {
+      path: "/comming",
+      name: "comming",
+      component: () => import("../views/CommingView.vue"),
+    },
+    {
+      path: "/iot",
+      name: "iot",
+      component: () => import("../views/iotView.vue"),
     },
   ],
 });
