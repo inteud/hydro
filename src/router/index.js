@@ -33,7 +33,7 @@ const router = createRouter({
       component: () => import("../views/CommingView.vue"),
     },
     {
-      path: "/iot",
+      path: "/#iot",
       name: "iot",
       component: () => import("../views/iotView.vue"),
     },
