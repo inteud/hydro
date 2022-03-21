@@ -39,8 +39,8 @@ const links = ref([
   { title: "Hidrologia", icon: "hexagon-multiple", to: "/#/comming", style: `${styles}` },
   { title: "Proyectos", icon: "wall", to: "/#/comming", style: `${styles}` },
   { title: "Obras hidraulicas", icon: "tower-fire", to: "/#/comming", style: `${styles}` },
-  { title: "Software", icon: "desktop-classic", to: "/#/comming", style: `${styles}` },
-  { title: "IOT", icon: "desktop-classic", to: "/#/iot", style: `${styles};background: #2962FF; color: white` },
+  { title: "Software", icon: "desktop-classic", to: "/comming", style: `${styles}` },
+  { title: "IOT", icon: "desktop-classic", to: "/iot", style: `${styles};background: #2962FF; color: white` },
 ]);
 </script>
 
