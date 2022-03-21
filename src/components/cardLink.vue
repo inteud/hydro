@@ -1,8 +1,8 @@
 <template>
-  <a :href="to" :target="target" :class="['card', styles]">
+  <router-link :to="to" :target="target" :class="['card', styles]">
     <i :class="['card-icon mdi', 'mdi-' + icon]"></i>
     <div class="card-title">{{ title }}</div>
-  </a>
+  </router-link>
 </template>
 
 <script setup>
