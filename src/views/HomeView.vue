@@ -33,14 +33,14 @@ import CardLink from "@/components/cardLink.vue";
 const domain = ref("https://inteud.github.io/");
 const styles = "width: calc(calc(100% / 3) - 1rem)";
 const links = ref([
-  { title: "Hidraulica", icon: "hydro-power", to: "/#/hidraulica", style: `${styles}` },
-  { title: "Canales", icon: "eye-circle-outline", to: "/#/comming", style: `${styles}` },
-  { title: "Ancantarillados", icon: "hexagon-multiple", to: "/#/comming", style: `${styles}` },
-  { title: "Hidrologia", icon: "hexagon-multiple", to: "/#/comming", style: `${styles}` },
-  { title: "Proyectos", icon: "wall", to: "/#/comming", style: `${styles}` },
-  { title: "Obras hidraulicas", icon: "tower-fire", to: "/#/comming", style: `${styles}` },
-  { title: "Software", icon: "desktop-classic", to: "/#/comming", style: `${styles}` },
-  { title: "IOT", icon: "desktop-classic", to: "/#/iot", style: `${styles};background: #2962FF; color: white` },
+  { title: "Hidraulica", icon: "hydro-power", to: "/hidraulica", style: `${styles}` },
+  { title: "Canales", icon: "eye-circle-outline", to: "/comming", style: `${styles}` },
+  { title: "Ancantarillados", icon: "hexagon-multiple", to: "/comming", style: `${styles}` },
+  { title: "Hidrologia", icon: "hexagon-multiple", to: "/comming", style: `${styles}` },
+  { title: "Proyectos", icon: "wall", to: "/comming", style: `${styles}` },
+  { title: "Obras hidraulicas", icon: "tower-fire", to: "/comming", style: `${styles}` },
+  { title: "Software", icon: "desktop-classic", to: "/comming", style: `${styles}` },
+  { title: "IOT", icon: "desktop-classic", to: "/iot", style: `${styles};background: #2962FF; color: white` },
 ]);
 </script>
 
