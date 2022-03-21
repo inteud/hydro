@@ -1,0 +1,1 @@
+import{_ as o}from"./index.965d551b.js";import{o as t,c as s,F as r,a as e}from"./vendor.24c6ff63.js";const a={},c=e("h1",null,"IOT",-1),n=e("hr",{class:"divider"},null,-1);function _(i,l,d,p,f,m){return t(),s(r,null,[c,n],64)}var $=o(a,[["render",_]]);export{$ as default};
